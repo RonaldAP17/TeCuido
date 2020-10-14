@@ -1,0 +1,68 @@
+@font-face{
+    src: url(Fuentes/BebasNeue-Regular.ttf);
+    font-family: Bebas;
+}
+
+@font-face{
+    src: url(Fuentes/LobsterTwo-Regular.ttf);
+    font-family: Lobster;
+}
+
+@font-face{
+    src: url(Fuentes/SansitaSwashed-VariableFont_wght.ttf);
+    font-family: Sansita;
+}
+
+@font-face{
+    src: url(Fuentes/Teko-Regular.ttf);
+    font-family: Teko;
+}
+
+.nav-bar__items{
+    font-family: Bebas;
+    font-size: 20px;
+    display: inline;
+    background-color: aqua;
+}
+
+.confiar__titulo{
+    text-align: center;
+    margin: 12px;
+    color: cadetblue;
+    font-size: 35px;
+    font-family: Teko;
+}
+
+.confiar__info{
+    background-color: cornflowerblue;
+    color: rgb(14, 11, 11);
+    text-align: justify;
+    width: 700px;
+    font-size: 20px;
+}
+
+.consejo__titulo{
+    background-color: burlywood;
+    font-family: Sansita;
+    text-align: center;
+    font-size: 40px;
+    color: cadetblue;
+    width: 100%;
+    padding: -4;
+}
+
+.consejo__info{
+    width: 100%;
+    background-color: beige;
+    font-family: Sansita;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -40px;
+
+}
+
+.pie{
+    margin-top: 40px;
+    background-color: crimson;
+}
+
