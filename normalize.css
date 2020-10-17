@@ -11,9 +11,9 @@
  *{
     box-sizing: border-box;
     padding: 0;
-    margin:0;
- }
- html {
+    margin: 0;
+  }
+  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }

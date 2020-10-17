@@ -18,51 +18,115 @@
     font-family: Teko;
 }
 
-.nav-bar__items{
+.Encabezado{
+    background-color: darkslategrey;
+    width: 100%;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+.Encabezado__Logo{
+    width: 9.375rem;
+    height: 9.375rem;
+    padding: 2em;
+    display: block;
+    margin: auto;
+    margin-bottom: 2.5em;
+}
+
+ul{
+    padding: 0.74em;
+    margin: 1.9em;
+    text-align: center;
+}
+
+.seccion-menu{
+    width: 100%;
+    background-color: lightblue;
+    height: 2.8rem;
+    margin-top: -2.8em;
+}
+.menu__items{
+    display: inline-block;
+}
+
+.menu__hipervinculos{
     font-family: Bebas;
-    font-size: 20px;
-    display: inline;
-    background-color: aqua;
+    font-size: 1.2rem;
+    background-color: lightblue;
+    color: rgb(105, 100, 155);
+    text-decoration: none;
+    margin: 1em;
+    padding: 0.5em;
+    padding-left: 1.9em;
+    padding-right: 1.9em;
+}
+
+.menu__hipervinculos:hover{
+    color: rgb(41, 122, 116);
+    transition: linear 0.4s;
 }
 
 .confiar__titulo{
     text-align: center;
-    margin: 12px;
+    margin: 0.75em;
     color: cadetblue;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-family: Teko;
+    margin-top: 1.25em;
 }
 
 .confiar__info{
-    background-color: cornflowerblue;
+    background-color: rgb(61, 112, 116);
     color: rgb(14, 11, 11);
     text-align: justify;
-    width: 700px;
-    font-size: 20px;
+    width: 43.75rem;
+    font-size: 1.2rem;
+    margin: 0.3em;
+    padding: 1em;
+    border-radius: 0.3em;
+    box-shadow: 0.12em 0.2em 0.5em 0.15em rgb(83, 79, 79)
 }
 
 .consejo__titulo{
-    background-color: burlywood;
+    background-color: rgb(150, 150, 140);
     font-family: Sansita;
     text-align: center;
-    font-size: 40px;
-    color: cadetblue;
-    width: 100%;
-    padding: -4;
+    font-size: 2.5rem;
+    color: rgb(3, 41, 43);
+    margin: 0.125em;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    ;
 }
 
 .consejo__info{
-    width: 100%;
     background-color: beige;
     font-family: Sansita;
-    font-size: 20px;
+    color: rgb(100, 89, 71);
+    font-size: 1.2rem;
     text-align: center;
-    margin-top: -40px;
+    margin-top: -2.4em;
+    margin-left: 0.3em;
+    margin-right: 0.3em ;
+    padding: 3em;
+    border-radius: 0.5em;
+    text-shadow: 0.2em 0.15em 0.23em;
+}
 
+.Whatsapp{
+    position: fixed;
+    bottom: 2rem;
+    right: 2.5rem;
+    width: 3.6rem;
+    height: 3.6rem;
 }
 
 .pie{
-    margin-top: 40px;
-    background-color: crimson;
+    font-size: 20px ;
+    padding: 2.3em;
+    margin-top: 2.5em;
+    background-color: rgb(121, 176, 194);
 }
-
