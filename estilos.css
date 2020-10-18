@@ -18,20 +18,38 @@
     font-family: Teko;
 }
 
+body::-webkit-scrollbar{
+    width: 0.65rem;
+    background: rgb(236, 228, 219);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #86b4b4;
+    border-radius: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #72a1a1;
+}
+
+body::-webkit-scrollbar-thumb:active{
+    background: #517c7c;
+}
 .Encabezado{
-    background-color: darkslategrey;
+    background-color: #6ccfce;
     width: 100%;
     padding-left: 7em;
     padding-right: 7em;
 }
 
 .Encabezado__Logo{
-    width: 9.375rem;
-    height: 9.375rem;
-    padding: 2em;
+    width: 27.375rem;
+    height: 12.375rem;
+    padding: 0.3em;
     display: block;
     margin: auto;
-    margin-bottom: 2.5em;
+    margin-bottom: 2.8em;
+    image-resolution: inherit;
 }
 
 ul{
@@ -42,7 +60,7 @@ ul{
 
 .seccion-menu{
     width: 100%;
-    background-color: lightblue;
+    background-color:#F2F1F0;
     height: 2.8rem;
     margin-top: -2.8em;
 }
@@ -53,8 +71,7 @@ ul{
 .menu__hipervinculos{
     font-family: Bebas;
     font-size: 1.2rem;
-    background-color: lightblue;
-    color: rgb(105, 100, 155);
+    color: #8b7e78;
     text-decoration: none;
     margin: 1em;
     padding: 0.5em;
@@ -64,32 +81,39 @@ ul{
 
 .menu__hipervinculos:hover{
     color: rgb(41, 122, 116);
-    transition: linear 0.4s;
+    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s;
+}
+
+.menu__hipervinculos:active{
+    color: rgb(30, 87, 83);
+    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.20s;
 }
 
 .confiar__titulo{
     text-align: center;
     margin: 0.75em;
-    color: cadetblue;
+    color: #6b9c9c;
     font-size: 2.1875rem;
     font-family: Teko;
     margin-top: 1.25em;
+    margin-bottom: 1em;
 }
 
 .confiar__info{
-    background-color: rgb(61, 112, 116);
+    background-color: #b9aca7;
     color: rgb(14, 11, 11);
     text-align: justify;
     width: 43.75rem;
     font-size: 1.2rem;
     margin: 0.3em;
+    margin-left: 1.5em;
     padding: 1em;
     border-radius: 0.3em;
-    box-shadow: 0.12em 0.2em 0.5em 0.15em rgb(83, 79, 79)
+    box-shadow: 0.30em 0.3em 0.5em 0.12em rgb(155, 152, 149);
 }
 
 .consejo__titulo{
-    background-color: rgb(150, 150, 140);
+    background-color:#F2F1F0;
     font-family: Sansita;
     text-align: center;
     font-size: 2.5rem;
@@ -98,35 +122,36 @@ ul{
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     padding: 0.3em;
-    border-radius: 0.3em;
+    border-radius: 0.3em 0.3em 0 0;
     ;
 }
 
 .consejo__info{
-    background-color: beige;
+    background-color: #F0F2F2;
     font-family: Sansita;
     color: rgb(100, 89, 71);
     font-size: 1.2rem;
     text-align: center;
-    margin-top: -2.4em;
-    margin-left: 0.3em;
-    margin-right: 0.3em ;
-    padding: 3em;
-    border-radius: 0.5em;
-    text-shadow: 0.2em 0.15em 0.23em;
+    margin-top: -2.6em;
+    margin-left: 0.275em;
+    margin-right: 0.275em ;
+    padding: 2em;
+    border-radius: 0 0 0.5em 0.5em;
+    text-shadow: 0.14em 0.10em 0.28em;
 }
 
 .Whatsapp{
     position: fixed;
     bottom: 2rem;
     right: 2.5rem;
-    width: 3.6rem;
-    height: 3.6rem;
+    width: 3.8rem;
+    height: 3.8rem;
 }
 
 .pie{
     font-size: 20px ;
     padding: 2.3em;
     margin-top: 2.5em;
-    background-color: rgb(121, 176, 194);
+    background-color: #6ccfce;
+    color: #F0F2F2;  
 }
