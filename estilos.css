@@ -49,7 +49,7 @@ body::-webkit-scrollbar-thumb:active{
 /*Estilos de la página principal*/
 
 .Encabezado{
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     width: 100%;
     padding-left: 7em;
     padding-right: 7em;
@@ -62,7 +62,6 @@ body::-webkit-scrollbar-thumb:active{
     display: block;
     margin: auto;
     margin-bottom: 2.8em;
-    image-resolution: inherit;
 }
 
 ul{
@@ -73,7 +72,7 @@ ul{
 
 .seccion-menu{
     width: 100%;
-    background-color:#f5f5f5;
+    background-color:#f8f8f8;
     height: 2.8rem;
     margin-top: -2.8em;
 }
@@ -103,12 +102,28 @@ ul{
     transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.20s;
 }
 
+.deslizable{
+    background: #517c7c;
+    margin: auto;
+    width: 95%;
+    height: 27rem;
+    margin-top: 3.5em;
+}
+
+.deslizable__info{
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 6.25em;
+}
+
 .confiar{
-    width: 42.5rem;
+    width: 50%;
     height: 30rem;
     background: #e6ffff;
     padding: 0.2em;
     margin-top: 3em;
+    margin-left: 1.9em;
 }
 
 .confiar__titulo{
@@ -135,6 +150,22 @@ ul{
     text-size-adjust: 4em;
 }
 
+.confiar__imagen{
+    width: 40%;
+    height: 30rem;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-top: -30em;
+    position: relative;
+    margin-right: 1.9em;
+}
+
+.confiar__imagen-info{
+    text-align: center;
+    font-size: 4rem;
+    line-height: 7em;
+    font-family: Montserrat;
+}
 .consejo__titulo{
     background-color:#F2F1F0;
     font-family: Sansita;
@@ -146,7 +177,8 @@ ul{
     margin-bottom: 1.25em;
     padding: 0.3em;
     border-radius: 0.3em 0.3em 0 0;
-    ;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
 }
 
 .consejo__info{
@@ -156,8 +188,8 @@ ul{
     font-size: 1.2rem;
     text-align: center;
     margin-top: -2.6em;
-    margin-left: 0.275em;
-    margin-right: 0.275em ;
+    margin-left: 1.455em;
+    margin-right: 1.455em ;
     padding: 2em;
     border-radius: 0 0 0.5em 0.5em;
     text-shadow: 0.14em 0.10em 0.28em;
@@ -172,11 +204,201 @@ ul{
 }
 
 .pie{
-    font-size: 20px ;
+    font-size: 2rem ;
     padding: 2.3em;
     margin-top: 2.5em;
     background-color: #6ccfce;
     color: #F0F2F2;  
+    text-align: center;
+    font-family: Teko;
+}
+
+/*Estilos de la sección "Servicios"*/
+
+.estructura__titulo{
+    text-align: center;
+    margin: 0.75em;
+    color: #3b8080;
+    font-size: 3.3rem;
+    font-family: Montserrat;
+    margin-top: 1.25em;
+    margin-bottom: 1.6em;
+}
+
+.estructura__servicios-titulo{
+    background-color:#bebebe;
+    font-family: Sansita;
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(3, 41, 43);
+    margin: 0.125em;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    padding: 0.3em;
+    border-radius: 0.3em 0.3em 0 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: 0.8em;
+}
+
+.estructura__servicios-info{
+    background-color: #F0F2F2;
+    font-family: Sansita;
+    color: rgb(100, 89, 71);
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: -2.4em;
+    padding: 2em;
+    border-radius: 0 0 0.5em 0.5em;
+    text-shadow: 0.14em 0.10em 0.28em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: 1.5em;
+}
+
+.estructura__servicios-imagen{
+    float: left;
+    width: 22%;
+    height: 12.6rem;
+    background-color: #517c7c;
+    margin: 1.5rem;
+    margin-top: 0.15em;
+    margin-left: 2em;
+    border-radius: 0.7em;
+    text-align: center;
+    line-height: 13em;
+    font-family: Montserrat;
+}
+
+.Whatsapp{
+    position: fixed;
+    bottom: 2rem;
+    right: 2.5rem;
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+/*Estilos de la sección "Sobre Nosotros"*/
+
+.Nosotros__titulo{
+    margin-bottom: 1.5em;
+    margin-top: 1.25em;
+    color: #3b8080;
+    font-family: Montserrat;
+    font-size: 3.3rem;
+    text-align: center;
+}
+.informacion-1{
+    background-color: #72a1a1;
+    width: 66.5%;
+    height: 20rem;
+    float: right;
+    margin-right: 1.8em;
+    text-align: center;
+    line-height: 18.5em;
+    color: #d8dbd1;
+    font-family: Montserrat;
+    border-radius: 0.7em;
+}
+
+.imagen-1{
+    position: relative;
+    width: 26%;
+    height: 20rem;
+    background-color: #333333;
+    margin-left: 2em;
+    text-align: center;
+    line-height: 18.5em;
+    color: #d8dbd1;
+    font-family: Montserrat;
+    border-radius: 0.7em;
+}
+
+.informacion-2{
+    position: relative;
+    width: 62%;
+    height: 25rem;
+    background-color: #72a1a1;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-align: center;
+    line-height: 25.5em;
+    color: #d8dbd1;
+    font-family: Montserrat;
+    border-radius: 0.7em;
+}
+
+.imagen-2{
+    width: 30.5%;
+    height: 12rem;
+    margin-right: 1.8em;
+    margin-bottom: 1em;
+    background-color: #333333;
+    margin-left: auto;
+    margin-top: -25em;
+    text-align: center;
+    line-height: 11.5em;
+    color: #d8dbd1;
+    font-family: Montserrat;
+    border-radius: 0.7em;
+}
+
+.imagen-3{
+    margin-left: auto;
+    width: 30.5%;
+    height: 12rem;
+    margin-right: 1.8em;
+    margin-bottom: 1em;
+    background-color: #333333;
+    text-align: center;
+    line-height: 11.5em;
+    color: #d8dbd1;
+    font-family: Montserrat;
+    border-radius: 0.7em;
+}
+
+/*Estilos de la sección "Publicaciones"*/
+
+.publicaciones__titulo{
+
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 3.3rem;
+    color: #3b8080;
+    margin: 0.125em;
+    margin-top: .92em;
+    margin-bottom: 0.5em;
+    padding: 0.3em;
+    border-radius: 0.3em 0.3em 0 0;
+}
+
+.publicaciones__info{
+    max-width: 80rem;
+    height: 15rem;
+    background-color: rgb(210, 242, 243);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -2.6em;
+    margin-left: 0.275em;
+    margin-right: 0.275em ;
+    padding: 2em;
+    border-radius: 0.3em;
+    box-shadow: 0.30em 0.3em 0.5em 0.12em rgb(155, 152, 149);
+    margin: auto;
+    font-family: Sansita;
+}
+
+.publicacion1, .publicacion2, .publicacion3{
+    color: black;
+    padding: 0.3em;
+    font-size: 3rem;
+    color: black;
+    font-size: 1rem;
+    margin-left: 0.275em;
+    margin-right: 0.275em ;
+    margin-bottom: 2.5em;
+    padding: 2em;
+    text-align: center;
 }
 
 /* Estilos de la sección "Contáctanos"*/
@@ -187,11 +409,13 @@ ul{
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
+    margin-top: .36em;
 }
 
 .formulario__titulo {
     text-align: center;
-    font-size: 3.2rem;
+    font-size: 3.3rem;
+    color: #3b8080;
 }
 
 .contact-wrapper > * {
