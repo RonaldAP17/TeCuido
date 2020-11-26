@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contáctanos | TeCuido</title>
     <!--Hoja de estilos-->
     <link rel="stylesheet" href="estilos.css">
     <!--Normalize-->
@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--Fuentes de Google-->
     <link rel="stylesheet" href="Fuentes/SansitaSwashed-VariableFont_wght.ttf">
-    <link rel="stylesheet" href="Fuentes/LobsterTwo-Regular.ttf">
-    <link rel="stylesheet" href="Fuentes/SansitaSwashed-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="Fuentes/Montserrat-Regular.ttf">
     <link rel="stylesheet" href="Fuentes/Teko-Regular.ttf">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/9afd23f2b7.js" crossorigin="anonymous"></script>
 </head>
 <body>
         <header>
@@ -37,8 +38,12 @@
             <div class="formulario">
 
                 <h1 class="formulario__titulo animate__animated animate__bounceInUp">Contáctanos</span></h1>
-        
+                <div class="mensaje-whatsapp animate__animated animate__bounceInUp">
+                    <a href="https://wa.me/51951989859" target="_blank">¡Envíanos un mensaje a nuestro WhatsApp!</a>
+                </div>
                 <div class="contact-wrapper animate__animated animate__bounceInUp">
+                    <h3 class="formulario__subtitulo">o</h3>
+                    <h2 class="formulario__subtitulo-2">Déjanos tus datos aquí</h2>
                     <div class="formulario__datos">
                         <form action="">
                             <p>
@@ -73,7 +78,13 @@
             </div>
         </main>
         <footer class="pie">
-            <p>Información sobre la empresa y redes sociales</p>
+            <div class="redes__container">
+                <ul>
+                    <li><a href="#" class="redes__container-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="redes__container-whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="#" class="redes__container-gmail"><i class="far fa-envelope"></i></a></li>
+                </ul>
+            </div>
         </footer>
 </body>
 </html>
