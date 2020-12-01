@@ -168,7 +168,8 @@ ul {
     background: #e6ffff;
     color: rgb(14, 11, 11);
     font-family: Montserrat;
-    font-size: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.7em;
     margin-top: 0;
     padding-right: 1em;
     padding-left: 1em;
@@ -214,13 +215,12 @@ ul {
     border-radius: 0 0 0.5em 0.5em;
     color: rgb(100, 89, 71);
     font-family: Sansita;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-left: 1.455em;
     margin-right: 1.455em;
     margin-top: -2.6em;
     padding: 2em;
     text-align: center;
-    text-shadow: 0.14em 0.10em 0.28em;
 }
 
 .Whatsapp {
@@ -335,7 +335,6 @@ ul {
     margin-top: -2.4em;
     padding: 2em;
     text-align: justify;
-    text-shadow: 0.14em 0.10em 0.28em;
     width: 85%;
 }
 
