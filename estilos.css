@@ -13,7 +13,7 @@
     font-family: Montserrat;
 }
 
-body{
+body {
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 .Encabezado {
-    background-color: #f8f8f8;
+    background: #f1efed;
     padding-left: 7em;
     padding-right: 7em;
     width: 100%;
@@ -65,7 +65,7 @@ ul {
 }
 
 .seccion-menu {
-    background-color: #f8f8f8;
+    background: #f1efed;
     height: 2.8rem;
     margin-top: -2.8em;
     width: 100%;
@@ -128,7 +128,10 @@ ul {
 }
 
 .contenedor__slider__contenido h2 {
-    font-weight: 300;
+    color: #333333;
+    font-weight: 800;
+    font-family: Montserrat;
+    font-size: 1.65rem;
     text-align: justify;
     line-height: 1.875em;
 }
@@ -152,23 +155,25 @@ ul {
     width: 90%;
 }
 
-.confiar__info > h2 {
-    color: #6b9c9c;
+.confiar__info>h2 {
+    color: #4f7070;
     font-family: Montserrat;
     font-size: 2.5rem;
     font-weight: lighter;
+    line-height: 1.2em;
     margin: 0.75em;
-    margin-bottom: 0.5em;
-    margin-top: -.5em;
+    margin-bottom: -1em;
+    margin-top: -.4em;
     padding-left: 1.15em;
     text-align: center;
 }
 
 .confiar__info {
-    background: #e6ffff;
-    color: rgb(14, 11, 11);
+
+    color: #474747;
+    border-radius: 0.3em;
     font-family: Montserrat;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     line-height: 1.7em;
     margin-top: 0;
     padding-right: 1em;
@@ -176,50 +181,45 @@ ul {
     padding-top: 2em;
     text-align: justify;
     width: 60%;
-    height: 30rem;
+    height: 31.5rem;
+}
+
+.confiar__razones {
+    text-align: justify;
 }
 
 .confiar__imagen {
-    background-color: cadetblue;
-    height: 30rem;
+    border-radius: 0.3em;
+    height: 29rem;
     margin-left: auto;
-    margin-right: -4.5em;
-    margin-top: 0;
-    width: 40%;
-}
-
-.confiar__imagen-info {
-    font-family: Montserrat;
-    font-size: 4rem;
-    line-height: 7em;
-    text-align: center;
+    margin-right: -8.5em;
+    margin-top: 1em;
+    width: 43.75rem;
 }
 
 .consejo__titulo {
-    background-color: #F2F1F0;
-    border-radius: 0.3em 0.3em 0 0;
     color: rgb(89, 151, 155);
     font-family: Sansita;
     font-size: 2.5rem;
     margin: 0.125em;
-    margin-bottom: 1.25em;
-    margin-left: 0.7em;
-    margin-right: 0.7em;
-    margin-top: 1.25em;
+    margin-bottom: .6em;
     padding: 0.3em;
     text-align: center;
 }
 
 .consejo__info {
-    background-color: #F0F2F2;
-    border-radius: 0 0 0.5em 0.5em;
+    background: #f1efed;
+    background: -webkit-linear-gradient(to right, #eeebeb, #f8f8f8);
+    background: linear-gradient(to right, #eeebeb, #f8f8f8);
+    border-radius: .5em;
     color: rgb(100, 89, 71);
     font-family: Sansita;
     font-size: 1.4rem;
     margin-left: 1.455em;
     margin-right: 1.455em;
-    margin-top: -2.6em;
-    padding: 2em;
+    margin-top: 2.6em;
+    margin-bottom: 3em;
+    padding: .8em;
     text-align: center;
 }
 
@@ -232,22 +232,19 @@ ul {
 }
 
 .pie {
-    background-color: #6ccfce;
-    color: #F0F2F2;
-    font-family: Teko;
-    font-size: 2rem;
-    margin-top: 2.5em;
+    margin-top: 1em;
+    padding: .5em;
     text-align: center;
     width: 100%;
 }
 
-.redes__container{
+.redes__container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.redes__container ul li{
+.redes__container ul li {
     display: inline-block;
     margin: 0.3125rem;
     width: 3.125rem;
@@ -255,44 +252,49 @@ ul {
     text-align: center;
 }
 
-.redes__container ul li a{
+.redes__container ul li a {
     display: block;
     padding: 0 0.545rem;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(117, 106, 106);
     color: #fff;
     line-height: 3rem;
     font-size: 1.35rem;
-    box-shadow: 0 0.1875rem 0.3125rem 0 rgba(0,0,0,.2);
+    box-shadow: 0 0.1875rem 0.3125rem 0 rgba(0, 0, 0, .2);
     transition: .2s;
 }
 
-.redes__container ul:hover a{
+.redes__container ul:hover a {
     filter: blur(2px);
 }
 
-.redes__container ul li a:hover{
+.redes__container ul li a:hover {
     transform: translateY(-0.1875rem) scale(1.05);
-    box-shadow: 0 0.3125rem 0.3125rem 0 rgba(0,0,0,.4);
+    box-shadow: 0 0.3125rem 0.3125rem 0 rgba(0, 0, 0, .4);
     filter: none;
 }
 
-.redes__container-facebook:hover{
+.redes__container-facebook:hover {
     background-color: rgb(21, 21, 206);
 }
 
-.redes__container-whatsapp:hover{
+.redes__container-whatsapp:hover {
     background-color: rgb(117, 170, 11);
 }
 
-.redes__container-gmail:hover{
+.redes__container-gmail:hover {
     background-color: rgb(187, 18, 18);
 }
 
+.pie__copyright {
+    color: #242424;
+    font-size: .8rem;
+    font-family: Montserrat;
+}
 
 /*Estilos de la sección "Servicios"*/
 
 .estructura {
-    width: 90%;
+    width: 85%;
     margin: auto;
 }
 
@@ -307,12 +309,14 @@ ul {
 }
 
 .estructura__servicios {
+    margin-top: -3.5em;
+    margin-bottom: 3.5em;
     display: flex;
 }
 
 .estructura__servicios h3 {
     color: rgb(3, 41, 43);
-    font-family: Sansita;
+    font-family: Montserrat;
     font-size: 2.3rem;
     margin: 0.125em;
     margin-bottom: 1.25em;
@@ -324,11 +328,14 @@ ul {
     width: 85%;
 }
 
+.servicios__medico {
+    margin-top: -1.2em;
+}
+
 .estructura__servicios-info {
-    background-color: #F0F2F2;
     border-radius: 0 0 0.5em 0.5em;
     color: rgb(100, 89, 71);
-    font-family: Sansita;
+    font-family: Montserrat;
     font-size: 1.2rem;
     margin-left: auto;
     margin-right: 1em;
@@ -349,7 +356,8 @@ ul {
     margin-left: 2em;
     margin-top: 3.2em;
     text-align: center;
-    width: 50%;
+    width: 370px;
+    height: 250px;
 }
 
 .Whatsapp {
@@ -386,25 +394,24 @@ ul {
 }
 
 .informacion-1 {
-    background-color: #72a1a1;
-    border-radius: 0.7em;
-    color: #d8dbd1;
+    color: #575757;
     float: right;
     font-family: Montserrat;
+    font-size: 1.5rem;
+    line-height: 1.6em;
     height: 20rem;
-    line-height: 18.5em;
+    padding-top: 3em;
     margin-right: 1.8em;
-    text-align: center;
+    text-align: justify;
     width: 66.5%;
 }
 
 .imagen-1 {
-    background-color: #333333;
     border-radius: 0.7em;
     color: #d8dbd1;
     font-family: Montserrat;
     height: 20rem;
-    line-height: 18.5em;
+    margin-top: -2em;
     margin-bottom: 1em;
     position: relative;
     text-align: center;
@@ -412,28 +419,33 @@ ul {
     margin-right: 1.8em;
 }
 
-.informacion-2 {
-    background-color: #72a1a1;
-    border-radius: 0.7em;
-    color: #d8dbd1;
-    height: 25rem;
-    font-family: Montserrat;
-    line-height: 25.5em;
-    margin-left: 2em;
-    margin-top: 2em;
-    position: relative;
+.informacion-2>h2 {
+    color: rgb(3, 41, 43);
+    font-size: 2.5rem;
+    margin-bottom: 1em;
     text-align: center;
+}
+
+.informacion-2 {
+    border-radius: 0.7em;
+    color: #65831f;
+    height: 10rem;
+    font-family: Montserrat;
+    font-size: 1.35rem;
+    line-height: 1.6em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-top: 1em;
+    position: relative;
+    text-align: justify;
     width: 62%;
 }
 
 .imagen-2,
 .imagen-3 {
-    background-color: #333333;
     border-radius: 0.7em;
-    color: #d8dbd1;
-    font-family: Montserrat;
     height: 12rem;
-    line-height: 11.5em;
+    line-height: 15.5em;
     margin-bottom: 1em;
     margin-left: auto;
     margin-right: 1.8em;
@@ -444,7 +456,7 @@ ul {
 
 .imagen-2 {
     margin-bottom: -4em;
-    margin-top: -25.5em;
+    margin-top: -26.5em;
 }
 
 /*Estilos de la sección "Publicaciones"*/
@@ -461,13 +473,25 @@ ul {
     text-align: center;
 }
 
+.articulo__titulo {
+    color: rgb(3, 41, 43);
+    margin-top: -.3em;
+    margin-bottom: 1.3em;
+    font-size: 1.9rem;
+    font-family: Montserrat;
+    text-align: center;
+}
+
 .publicaciones__info {
-    background-color: rgb(210, 242, 243);
+    background: #74ebd5;
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+    background: linear-gradient(to right, #e3ecee, #91ecdd);
     border-radius: 0.3em;
-    box-shadow: 0.30em 0.3em 0.5em 0.12em rgb(155, 152, 149);
-    font-family: Sansita;
-    font-size: 2rem;
-    height: 15rem;
+    box-shadow: 0.30em 0.3em 0.5em 0.12em rgb(190, 190, 190);
+    color: #585858;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    height: 23.5rem;
     margin: auto;
     margin-bottom: 1.5em;
     margin-top: -2.6em;
@@ -475,7 +499,15 @@ ul {
     margin-right: 0.275em;
     max-width: 80rem;
     padding: 3em;
-    text-align: center;
+    text-align: justify;
+}
+
+.publicaciones__info-2 {
+    height: 26rem;
+}
+
+.publicaciones__info-3 {
+    height: 21rem;
 }
 
 .publicacion1,
@@ -483,9 +515,10 @@ ul {
 .publicacion3 {
     color: black;
     font-size: 1rem;
-    margin-bottom: 2.5em;
+    margin-top: -1.9em;
     margin-left: 0.275em;
     margin-right: 0.275em;
+    margin-bottom: 2em;
     padding: 2em;
     text-align: center;
 }
@@ -507,44 +540,47 @@ ul {
     margin-bottom: 1em;
 }
 
-.mensaje-whatsapp{
+.mensaje-whatsapp {
     background-color: rgb(15, 161, 51);
     height: 5rem;
     text-align: center;
     line-height: 4.8em;
 }
 
-.mensaje-whatsapp:hover{
+.mensaje-whatsapp:hover {
     background-color: rgb(14, 133, 44);
     transition: all .4s;
+    cursor: pointer;
 }
 
-.mensaje-whatsapp:active{
+.mensaje-whatsapp:active {
     background-color: rgb(9, 95, 31);
 }
 
-.mensaje-whatsapp > a{
+.mensaje-whatsapp>a {
     color: #ffff;
     font-family: Montserrat;
     font-size: 1.6rem;
     text-decoration: none;
 }
 
-.formulario__subtitulo,.formulario__subtitulo-2{
+.formulario__subtitulo,
+.formulario__subtitulo-2 {
     color: #3b8080;
     font-family: Montserrat;
     font-size: 2.3rem;
     text-align: center;
 }
 
-.formulario__subtitulo{
+.formulario__subtitulo {
     margin-bottom: -1.5em;
     display: inline-block;
     position: relative;
 }
 
-.formulario__subtitulo::after, .formulario__subtitulo::before{
-    content:"";
+.formulario__subtitulo::after,
+.formulario__subtitulo::before {
+    content: "";
     position: absolute;
     width: 27rem;
     height: 0.1875rem;
@@ -552,12 +588,14 @@ ul {
     top: 1.9em;
 }
 
-.formulario__subtitulo::before{
-    left:-25.5rem
+.formulario__subtitulo::before {
+    left: -25.5rem
 }
-.formulario__subtitulo::after{
+
+.formulario__subtitulo::after {
     right: -25.5rem;
 }
+
 .contact-wrapper>* {
     padding: 1.3em;
 }
@@ -600,13 +638,14 @@ ul {
 
 .formulario__datos form button:hover,
 .formulario__datos form button:focus {
+    cursor: pointer;
     background: #3b8080;
     color: #fff;
     outline: 0;
     transition: .35s ease-out;
 }
 
-.formulario__datos form button:active{
+.formulario__datos form button:active {
     background: #316868;
     transition: all .35s;
 }
@@ -630,10 +669,15 @@ ul {
         flex-direction: column-reverse;
     }
 
+    .servicios__medico {
+        margin-top: 0.5em;
+    }
+
     .estructura__servicios-imagen {
         margin: auto;
         text-align: center;
-        width: 50%;
+        width: 250px;
+        height: 180px;
         margin-top: 1em;
         margin-bottom: -2em;
     }
@@ -669,39 +713,84 @@ ul {
 
 }
 
-@media screen and (max-width: 950px){
-    .contenedor__slider{
+@media screen and (max-width: 950px) {
+    .contenedor__slider {
         margin-bottom: 7em;
     }
-    .confiar{
+
+    .confiar {
         flex-direction: column;
         margin-top: 2em;
         padding-top: 0;
     }
 
-    .confiar__info{
+    .confiar__info {
         margin: auto;
         overflow-y: scroll;
         width: 95%;
     }
-    
-    .confiar__info > h2{
-    font-size: 1.9rem;
-    padding: 0;
-    margin-bottom: 1.35em;
+
+    .confiar__info>h2 {
+        font-size: 1.9rem;
+        padding: 0;
+        margin-bottom: 1.35em;
     }
-    
-    .confiar__info > p{
+
+    .confiar__info>p {
         margin-bottom: 1em;
     }
-    .confiar__imagen{
+
+    .confiar__imagen {
         margin: auto;
         margin-top: 1em;
         width: 80%;
         height: 20rem;
     }
 
-    .confiar__imagen-info{
+    .confiar__imagen-info {
+        width: 84%;
+        margin: auto;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .contenedor__slider {
+        margin-bottom: 7em;
+    }
+
+    .confiar {
+        flex-direction: column;
+        margin-top: 2em;
+        padding-top: 0;
+    }
+
+    .confiar__info {
+        margin: auto;
+        overflow-y: scroll;
+        width: 95%;
+    }
+
+    .confiar__info>h2 {
+        font-size: 1.9rem;
+        padding: 0;
+        margin-bottom: 1.35em;
+    }
+
+    .confiar__info>p {
+        margin-bottom: 1em;
+    }
+
+    .confiar__imagen {
+        margin: auto;
+        margin-top: 1em;
+        width: 80%;
+        height: 20rem;
+    }
+
+    .confiar__imagen-info {
         line-height: 4.5em;
     }
 }

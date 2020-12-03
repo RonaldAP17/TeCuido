@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nosotros | TeCuido</title>
+    <title>Contáctanos | TeCuido</title>
     <!--Hoja de estilos-->
     <link rel="stylesheet" href="estilos.css">
     <!--Normalize-->
@@ -33,40 +33,53 @@
                     </li>
                     <li class="menu__items"></li><a href="publicaciones.html" class="menu__hipervinculos">Noticias</a>
                     </li>
-                    <li class="menu__items"></li><a href="contactanos.html" class="menu__hipervinculos">Contáctanos</a>
+                    <li class="menu__items"></li><a href="contáctanos.html" class="menu__hipervinculos">Contáctanos</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <h1 class="Nosotros__titulo animate__animated animate__fadeIn">Sobre Nosotros</h1>
-        <section class="nosotros__parte1">
-            <div class="informacion-1 animate__animated animate__fadeInLeft">
-                <p>TeCuido es una empresa conformada por un grupo de profesionales altamente capacitados y con
-                    experiencia en los más grandes hospitales de Lima la cual está comprometida a brindar servicios de
-                    calidad que le garanticen al cliente la mayor comodidad y bienestar posible. </p>
+        <div class="formulario">
+
+            <h1 class="formulario__titulo animate__animated animate__bounceInUp">Contáctanos</span></h1>
+            <div class="mensaje-whatsapp animate__animated animate__bounceInUp">
+                <a href="https://wa.me/51951989859" target="_blank">¡Envíanos un mensaje a nuestro WhatsApp!</a>
             </div>
-            <img loading="lazy" src="Imagenes/Nosotros principal.png" class="imagen-1 animate__animated animate__fadeInLeft"></img>
-        </section>
-        <section class="nosotros__parte2">
-            <div class="informacion-2 animate__animated animate__fadeInLeft">
-                <h2>Misión</h2>
-                <p>Tenemos la misión de lograr la completa satisfacción de nuestros clientes mediante el cubrimiento de
-                    todas las necesidades integrales de la salud y la entrega de servicios y productos de la mejor
-                    calidad.</p>
+            <div class="contact-wrapper animate__animated animate__bounceInUp">
+                <h3 class="formulario__subtitulo">o</h3>
+                <h2 class="formulario__subtitulo-2">Déjanos tus datos aquí</h2>
+                <div class="formulario__datos">
+                    <form action="">
+                        <p>
+                            <label>Nombres</label>
+                            <input type="text" name="Nombres">
+                        </p>
+                        <p>
+                            <label>Apellidos</label>
+                            <input type="text" name="Apellidos">
+                        </p>
+                        <p>
+                            <label>Correo electrónico</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>Número de teléfono</label>
+                            <input type="tel" name="teléfono">
+                        </p>
+                        <p class="caja">
+                            <label>Motivo de la consulta</label>
+                            <textarea name="mensaje" rows="3"></textarea>
+                        </p>
+                        <p class="caja">
+                            <button>
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
             </div>
-            <div class="informacion-2 animate__animated animate__fadeInLeft">
-                <h2>Visión</h2>
-                <p>Ser una empresa prestadora de salud innovadora, reconocida y legitimada como líder en servicios
-                    integrales de salud a nivel nacional e internacional.</p>
-            </div>
-            <img loading="lazy" src="Imagenes/Nosotros 2.png" class="imagen-2 animate__animated animate__fadeInLeft"></img>
-            <img loading="lazy" src="Imagenes/Nosotros 1.png" class="imagen-3 animate__animated animate__fadeInLeft"></img>
-        </section>
-        <div>
-            <a href="https://wa.me/51951989859" target="_blank"><img src="Imagenes/whatsapp.svg" alt="Ícono de whatsapp"
-                    class="Whatsapp animate__animated animate__bounceIn"></a>
+
         </div>
     </main>
     <footer class="pie">
@@ -81,5 +94,4 @@
         <h4 class="pie__copyright animate__animated animate__fadeIn">Copyright 2020 © TeCuido Todos los derechos reservados</h4>
     </footer>
 </body>
-
 </html>
